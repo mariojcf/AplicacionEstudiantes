@@ -41,11 +41,6 @@ namespace Aplicacion_estudiantes
                     lblerrorcarnet.Visible = false;
                     lblerrorname.Visible= false;
                 }
-                /*if (Name.Any(est.name == Name || est.carnet == carnet))
-                {
-                    MessageBox.Show("Ya existe un estudiante con este nombre o carnet. Ingrese datos diferentes.", "Error");
-                    return;
-                }*/
             } else
             {
                 lblerror.Text = "No es posible almacenar más estudiantes"; 
