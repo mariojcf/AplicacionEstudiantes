@@ -56,7 +56,7 @@
             this.txtbcarnet.Name = "txtbcarnet";
             this.txtbcarnet.Size = new System.Drawing.Size(270, 27);
             this.txtbcarnet.TabIndex = 1;
-            this.txtbcarnet.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombre_key);
+            this.txtbcarnet.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtbCarnet_key);
             // 
             // lblnombre
             // 

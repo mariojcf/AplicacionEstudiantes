@@ -5,12 +5,15 @@ namespace Aplicacion_estudiantes
         Estudiantes[] estudiantes = new Estudiantes[5]; // solo 5 estudiantes
         int contador = 0;
         bool verificado = false;
+        List<(string nombre, string carnet)> Estudiantes = new List<(string, string)>();
+
         public Form1()
         {
             InitializeComponent();
         }
 
         private void buttonguardar_Click(object sender, EventArgs e)
+
         {
             if (contador < 5)
             {
@@ -37,6 +40,11 @@ namespace Aplicacion_estudiantes
                     lblerrorcarnet.Visible = false;
                     lblerrorname.Visible= false;
                 }
+                /*if (Name.Any(est.name == Name || est.carnet == carnet))
+                {
+                    MessageBox.Show("Ya existe un estudiante con este nombre o carnet. Ingrese datos diferentes.", "Error");
+                    return;
+                }*/
             } else
             {
                 lblerror.Text = "No es posible almacenar más estudiantes"; 
@@ -44,7 +52,8 @@ namespace Aplicacion_estudiantes
             }
         }
 
-        private void txtNombre_key(object sender, KeyPressEventArgs e)
+
+        private void txtbNombre_key(object sender, KeyPressEventArgs e)
         {
             if (contador < 5)
             {
@@ -79,7 +88,7 @@ namespace Aplicacion_estudiantes
             }
         }
 
-        private void txtbNombre_key(object sender, KeyPressEventArgs e)
+        private void txtbCarnet_key(object sender, KeyPressEventArgs e)
         {
             if (contador < 5)
             {
