@@ -5,7 +5,6 @@ namespace Aplicacion_estudiantes
         Estudiantes[] estudiantes = new Estudiantes[5]; // solo 5 estudiantes
         int contador = 0;
         bool verificado = false;
-        List<(string nombre, string carnet)> Estudiantes = new List<(string, string)>();
 
         public Form1()
         {
