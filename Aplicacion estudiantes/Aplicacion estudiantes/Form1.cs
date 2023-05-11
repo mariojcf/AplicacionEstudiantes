@@ -1,3 +1,5 @@
+using System.Windows.Forms;
+
 namespace Aplicacion_estudiantes
 {
     public partial class Form1 : Form
@@ -54,71 +56,77 @@ namespace Aplicacion_estudiantes
 
         private void txtbNombre_key(object sender, KeyPressEventArgs e)
         {
-            if (contador < 5)
+            if (e.KeyChar == (char)Keys.Enter)
             {
-                bool verificado = true;
-                if (txtbcarnet.Text == "")
+                if (contador < 5)
                 {
-                    lblerrorcarnet.Text = "El carnet no puede ser vacio";
-                    lblerrorcarnet.Visible = true;
-                    verificado = false;
-                }
-                if (txtbnombre.Text == "")
-                {
-                    lblerrorname.Text = "El nombre no puede ser vacio";
-                    lblerrorname.Visible = true;
-                    verificado = false;
-                }
-                if (verificado)
-                {
-                    estudiantes[contador] = new Estudiantes(txtbcarnet.Text, txtbnombre.Text);
-                    contador++;
+                    bool verificado = true;
+                    if (txtbcarnet.Text == "")
+                    {
+                        lblerrorcarnet.Text = "El carnet no puede ser vacio";
+                        lblerrorcarnet.Visible = true;
+                        verificado = false;
+                    }
+                    if (txtbnombre.Text == "")
+                    {
+                        lblerrorname.Text = "El nombre no puede ser vacio";
+                        lblerrorname.Visible = true;
+                        verificado = false;
+                    }
+                    if (verificado)
+                    {
+                        estudiantes[contador] = new Estudiantes(txtbcarnet.Text, txtbnombre.Text);
+                        contador++;
 
-                    txtbcarnet.Text = "";
-                    txtbnombre.Text = "";
-                    lblerrorcarnet.Visible = false;
-                    lblerrorname.Visible = false;
+                        txtbcarnet.Text = "";
+                        txtbnombre.Text = "";
+                        lblerrorcarnet.Visible = false;
+                        lblerrorname.Visible = false;
+                    }
                 }
-            }
-            else
-            {
-                lblerror.Text = "No es posible almacenar más estudiantes";
-                lblerror.Visible = true;
-            }
+                else
+                {
+                    lblerror.Text = "No es posible almacenar más estudiantes";
+                    lblerror.Visible = true;
+                }
+            }          
         }
 
         private void txtbCarnet_key(object sender, KeyPressEventArgs e)
         {
-            if (contador < 5)
+            if (e.KeyChar == (char)Keys.Enter)
             {
-                bool verificado = true;
-                if (txtbcarnet.Text == "")
+                if (contador < 5)
                 {
-                    lblerrorcarnet.Text = "El carnet no puede ser vacio";
-                    lblerrorcarnet.Visible = true;
-                    verificado = false;
-                }
-                if (txtbnombre.Text == "")
-                {
-                    lblerrorname.Text = "El nombre no puede ser vacio";
-                    lblerrorname.Visible = true;
-                    verificado = false;
-                }
-                if (verificado)
-                {
-                    estudiantes[contador] = new Estudiantes(txtbcarnet.Text, txtbnombre.Text);
-                    contador++;
+                    bool verificado = true;
+                    if (txtbcarnet.Text == "")
+                    {
+                        lblerrorcarnet.Text = "El carnet no puede ser vacio";
+                        lblerrorcarnet.Visible = true;
+                        verificado = false;
+                    }
+                    if (txtbnombre.Text == "")
+                    {
+                        lblerrorname.Text = "El nombre no puede ser vacio";
+                        lblerrorname.Visible = true;
+                        verificado = false;
+                    }
+                    if (verificado)
+                    {
+                        estudiantes[contador] = new Estudiantes(txtbcarnet.Text, txtbnombre.Text);
+                        contador++;
 
-                    txtbcarnet.Text = "";
-                    txtbnombre.Text = "";
-                    lblerrorcarnet.Visible = false;
-                    lblerrorname.Visible = false;
+                        txtbcarnet.Text = "";
+                        txtbnombre.Text = "";
+                        lblerrorcarnet.Visible = false;
+                        lblerrorname.Visible = false;
+                    }
                 }
-            }
-            else
-            {
-                lblerror.Text = "No es posible almacenar más estudiantes";
-                lblerror.Visible = true;
+                else
+                {
+                    lblerror.Text = "No es posible almacenar más estudiantes";
+                    lblerror.Visible = true;
+                }
             }
         }
     }
