@@ -66,3 +66,4 @@ C:\Users\Umes08\Source\Repos\AplicacionEstudiantes\Aplicacion estudiantes\Aplica
 C:\Users\Umes08\Source\Repos\AplicacionEstudiantes\Aplicacion estudiantes\Aplicacion estudiantes\obj\Debug\net6.0-windows\Aplicacion estudiantes.pdb
 C:\Users\Umes08\Source\Repos\AplicacionEstudiantes\Aplicacion estudiantes\Aplicacion estudiantes\obj\Debug\net6.0-windows\Aplicacion estudiantes.genruntimeconfig.cache
 C:\Users\Umes08\Source\Repos\AplicacionEstudiantes\Aplicacion estudiantes\Aplicacion estudiantes\obj\Debug\net6.0-windows\ref\Aplicacion estudiantes.dll
+C:\Users\Umes08\Source\Repos\AplicacionEstudiantes\Aplicacion estudiantes\Aplicacion estudiantes\obj\Debug\net6.0-windows\Aplicacion_estudiantes.Notas.resources

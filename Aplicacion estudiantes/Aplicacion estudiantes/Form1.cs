@@ -159,5 +159,11 @@ namespace Aplicacion_estudiantes
             }
             return estudiante;
         }
+
+        private void MNUNotas_Click(object sender, EventArgs e)
+        {
+            Notas notas = new Notas();
+            notas.Show();
+        }
     }
 }
