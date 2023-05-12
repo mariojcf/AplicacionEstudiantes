@@ -11,7 +11,7 @@ namespace Aplicacion_estudiantes
         //metodos 
         private String name;
         private String id;
-        private Curso[] cursos = new Curso[0];
+        private Curso[] cursos = new Curso[2];
         //constructor
         public Estudiantes(String name, String id)
         {
