@@ -39,6 +39,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.estudianteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.MNUNotas = new System.Windows.Forms.ToolStripMenuItem();
+            this.bttnListado = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -146,9 +147,20 @@
             // MNUNotas
             // 
             this.MNUNotas.Name = "MNUNotas";
-            this.MNUNotas.Size = new System.Drawing.Size(180, 22);
+            this.MNUNotas.Size = new System.Drawing.Size(105, 22);
             this.MNUNotas.Text = "Notas";
             this.MNUNotas.Click += new System.EventHandler(this.MNUNotas_Click);
+            // 
+            // bttnListado
+            // 
+            this.bttnListado.Font = new System.Drawing.Font("Segoe UI Emoji", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.bttnListado.Location = new System.Drawing.Point(118, 320);
+            this.bttnListado.Name = "bttnListado";
+            this.bttnListado.Size = new System.Drawing.Size(118, 43);
+            this.bttnListado.TabIndex = 9;
+            this.bttnListado.Text = "Listado";
+            this.bttnListado.UseVisualStyleBackColor = true;
+            this.bttnListado.Click += new System.EventHandler(this.bttnListado_Click);
             // 
             // Form1
             // 
@@ -156,6 +168,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(527, 415);
+            this.Controls.Add(this.bttnListado);
             this.Controls.Add(this.lblerrorname);
             this.Controls.Add(this.lblerrorcarnet);
             this.Controls.Add(this.lblerror);
@@ -190,5 +203,6 @@
         private MenuStrip menuStrip1;
         private ToolStripMenuItem estudianteToolStripMenuItem;
         private ToolStripMenuItem MNUNotas;
+        private Button bttnListado;
     }
 }

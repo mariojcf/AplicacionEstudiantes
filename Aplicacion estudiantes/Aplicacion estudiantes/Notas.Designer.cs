@@ -28,21 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtbcarnet = new System.Windows.Forms.TextBox();
+            this.txtCarnet = new System.Windows.Forms.TextBox();
             this.lblcarnet = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtCursos = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtNota = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.buttonguardar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // txtbcarnet
+            // txtCarnet
             // 
-            this.txtbcarnet.Location = new System.Drawing.Point(178, 59);
-            this.txtbcarnet.Name = "txtbcarnet";
-            this.txtbcarnet.Size = new System.Drawing.Size(237, 23);
-            this.txtbcarnet.TabIndex = 3;
+            this.txtCarnet.Location = new System.Drawing.Point(178, 59);
+            this.txtCarnet.Name = "txtCarnet";
+            this.txtCarnet.Size = new System.Drawing.Size(237, 23);
+            this.txtCarnet.TabIndex = 3;
             // 
             // lblcarnet
             // 
@@ -55,12 +55,12 @@
             this.lblcarnet.TabIndex = 2;
             this.lblcarnet.Text = "Carné ";
             // 
-            // textBox1
+            // txtCursos
             // 
-            this.textBox1.Location = new System.Drawing.Point(178, 167);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(237, 23);
-            this.textBox1.TabIndex = 5;
+            this.txtCursos.Location = new System.Drawing.Point(178, 167);
+            this.txtCursos.Name = "txtCursos";
+            this.txtCursos.Size = new System.Drawing.Size(237, 23);
+            this.txtCursos.TabIndex = 5;
             // 
             // label1
             // 
@@ -73,12 +73,12 @@
             this.label1.TabIndex = 4;
             this.label1.Text = "Cursos";
             // 
-            // textBox2
+            // txtNota
             // 
-            this.textBox2.Location = new System.Drawing.Point(178, 265);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(237, 23);
-            this.textBox2.TabIndex = 7;
+            this.txtNota.Location = new System.Drawing.Point(178, 265);
+            this.txtNota.Name = "txtNota";
+            this.txtNota.Size = new System.Drawing.Size(237, 23);
+            this.txtNota.TabIndex = 7;
             // 
             // label2
             // 
@@ -100,6 +100,7 @@
             this.buttonguardar.TabIndex = 8;
             this.buttonguardar.Text = "Guardar";
             this.buttonguardar.UseVisualStyleBackColor = true;
+            this.buttonguardar.Click += new System.EventHandler(this.buttonguardar_Click);
             // 
             // Notas
             // 
@@ -108,11 +109,11 @@
             this.BackColor = System.Drawing.Color.Tomato;
             this.ClientSize = new System.Drawing.Size(528, 450);
             this.Controls.Add(this.buttonguardar);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtNota);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtCursos);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.txtbcarnet);
+            this.Controls.Add(this.txtCarnet);
             this.Controls.Add(this.lblcarnet);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -125,11 +126,11 @@
 
         #endregion
 
-        private TextBox txtbcarnet;
+        private TextBox txtCarnet;
         private Label lblcarnet;
-        private TextBox textBox1;
+        private TextBox txtCursos;
         private Label label1;
-        private TextBox textBox2;
+        private TextBox txtNota;
         private Label label2;
         private Button buttonguardar;
     }

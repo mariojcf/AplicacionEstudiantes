@@ -5,6 +5,7 @@ namespace Aplicacion_estudiantes
 {
     public partial class Form1 : Form
     {
+        public static Form1 instance; //agarrar datos de otro formulario
         Estudiantes[] estudiantes = new Estudiantes[5]; // solo 5 estudiantes
         int contador = 0;
         bool verificado = false;
@@ -12,6 +13,7 @@ namespace Aplicacion_estudiantes
         public Form1()
         {
             InitializeComponent();
+            instance = this; // cuando se cree se le asigna en esta parte
         }
 
         private void buttonguardar_Click(object sender, EventArgs e)
@@ -164,6 +166,24 @@ namespace Aplicacion_estudiantes
         {
             Notas notas = new Notas();
             notas.Show();
+        }
+        public Estudiantes[] getEstudiantes()
+        {
+            return estudiantes;
+        }
+
+        private void bttnListado_Click(object sender, EventArgs e)
+        {
+            string message = " ";
+
+            foreach(Estudiantes item in estudiantes)
+            {
+                if(item != null)
+                {
+                    message += " " + item.getId() + " - " + item.getName() + "\n";
+                }
+            }
+            MessageBox.Show(message);
         }
     }
 }
