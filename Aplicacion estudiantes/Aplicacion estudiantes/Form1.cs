@@ -180,7 +180,7 @@ namespace Aplicacion_estudiantes
             {
                 if(item != null)
                 {
-                    message += " " + item.getId() + " - " + item.getId() + "\n";
+                    message += " " + item.getId() + " - " + item.getName() + "\n";
                     foreach (Curso course in item.getCursos()) { 
                         if(course != null)
                         {
@@ -199,8 +199,9 @@ namespace Aplicacion_estudiantes
             String tittle = "Cerrar aplicaicon";
 
             MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+            MessageBoxIcon icon = MessageBoxIcon.Question;
             DialogResult dialogResult= DialogResult.Yes;
-            DialogResult result = MessageBox.Show(message,tittle, buttons);
+            DialogResult result = MessageBox.Show(message,tittle, buttons,icon);
 
             if (result == DialogResult.Yes) {
                 Application.Exit();
