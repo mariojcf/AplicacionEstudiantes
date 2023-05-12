@@ -181,6 +181,13 @@ namespace Aplicacion_estudiantes
                 if(item != null)
                 {
                     message += " " + item.getId() + " - " + item.getName() + "\n";
+                    foreach (Curso course in item.getCursos()) { 
+                        if(item != null)
+                        {
+                            message += "\t" + course.getName() + " - " + course.getGrade() + "\n";
+                        }
+                    
+                    }
                 }
             }
             MessageBox.Show(message);
