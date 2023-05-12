@@ -180,9 +180,9 @@ namespace Aplicacion_estudiantes
             {
                 if(item != null)
                 {
-                    message += " " + item.getId() + " - " + item.getName() + "\n";
+                    message += " " + item.getId() + " - " + item.getId() + "\n";
                     foreach (Curso course in item.getCursos()) { 
-                        if(item != null)
+                        if(course != null)
                         {
                             message += "\t" + course.getName() + " - " + course.getGrade() + "\n";
                         }
@@ -191,6 +191,20 @@ namespace Aplicacion_estudiantes
                 }
             }
             MessageBox.Show(message);
+        }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            String message = "¿Esta seguro que desea salir?";
+            String tittle = "Cerrar aplicaicon";
+
+            MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+            DialogResult dialogResult= DialogResult.Yes;
+            DialogResult result = MessageBox.Show(message,tittle, buttons);
+
+            if (result == DialogResult.Yes) {
+                Application.Exit();
+            }
         }
     }
 }

@@ -40,6 +40,7 @@
             this.estudianteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.MNUNotas = new System.Windows.Forms.ToolStripMenuItem();
             this.bttnListado = new System.Windows.Forms.Button();
+            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -129,7 +130,8 @@
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.estudianteToolStripMenuItem});
+            this.estudianteToolStripMenuItem,
+            this.salirToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(527, 24);
@@ -161,6 +163,13 @@
             this.bttnListado.Text = "Listado";
             this.bttnListado.UseVisualStyleBackColor = true;
             this.bttnListado.Click += new System.EventHandler(this.bttnListado_Click);
+            // 
+            // salirToolStripMenuItem
+            // 
+            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
+            this.salirToolStripMenuItem.Text = "Salir";
+            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -204,5 +213,6 @@
         private ToolStripMenuItem estudianteToolStripMenuItem;
         private ToolStripMenuItem MNUNotas;
         private Button bttnListado;
+        private ToolStripMenuItem salirToolStripMenuItem;
     }
 }
