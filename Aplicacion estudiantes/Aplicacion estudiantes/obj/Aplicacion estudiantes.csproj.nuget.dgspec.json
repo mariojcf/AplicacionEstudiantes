@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mario\\source\\repos\\Aplicacion estudiantes\\Aplicacion estudiantes\\Aplicacion estudiantes\\Aplicacion estudiantes.csproj": {}
+    "C:\\Users\\Umes08\\Source\\Repos\\AplicacionEstudiantes\\Aplicacion estudiantes\\Aplicacion estudiantes\\Aplicacion estudiantes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mario\\source\\repos\\Aplicacion estudiantes\\Aplicacion estudiantes\\Aplicacion estudiantes\\Aplicacion estudiantes.csproj": {
+    "C:\\Users\\Umes08\\Source\\Repos\\AplicacionEstudiantes\\Aplicacion estudiantes\\Aplicacion estudiantes\\Aplicacion estudiantes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mario\\source\\repos\\Aplicacion estudiantes\\Aplicacion estudiantes\\Aplicacion estudiantes\\Aplicacion estudiantes.csproj",
+        "projectUniqueName": "C:\\Users\\Umes08\\Source\\Repos\\AplicacionEstudiantes\\Aplicacion estudiantes\\Aplicacion estudiantes\\Aplicacion estudiantes.csproj",
         "projectName": "Aplicacion estudiantes",
-        "projectPath": "C:\\Users\\mario\\source\\repos\\Aplicacion estudiantes\\Aplicacion estudiantes\\Aplicacion estudiantes\\Aplicacion estudiantes.csproj",
-        "packagesPath": "C:\\Users\\mario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mario\\source\\repos\\Aplicacion estudiantes\\Aplicacion estudiantes\\Aplicacion estudiantes\\obj\\",
+        "projectPath": "C:\\Users\\Umes08\\Source\\Repos\\AplicacionEstudiantes\\Aplicacion estudiantes\\Aplicacion estudiantes\\Aplicacion estudiantes.csproj",
+        "packagesPath": "C:\\Users\\Umes08\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Umes08\\Source\\Repos\\AplicacionEstudiantes\\Aplicacion estudiantes\\Aplicacion estudiantes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Umes08\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

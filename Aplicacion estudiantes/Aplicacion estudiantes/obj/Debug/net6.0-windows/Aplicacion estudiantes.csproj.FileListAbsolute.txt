@@ -49,3 +49,20 @@ C:\Users\mario\source\repos\Aplicacion estudiantes\Aplicacion estudiantes\Aplica
 C:\Users\mario\source\repos\Aplicacion estudiantes\Aplicacion estudiantes\Aplicacion estudiantes\obj\Debug\net6.0-windows\Aplicacion estudiantes.pdb
 C:\Users\mario\source\repos\Aplicacion estudiantes\Aplicacion estudiantes\Aplicacion estudiantes\obj\Debug\net6.0-windows\Aplicacion estudiantes.genruntimeconfig.cache
 C:\Users\mario\source\repos\Aplicacion estudiantes\Aplicacion estudiantes\Aplicacion estudiantes\obj\Debug\net6.0-windows\ref\Aplicacion estudiantes.dll
+C:\Users\Umes08\Source\Repos\AplicacionEstudiantes\Aplicacion estudiantes\Aplicacion estudiantes\bin\Debug\net6.0-windows\Aplicacion estudiantes.exe
+C:\Users\Umes08\Source\Repos\AplicacionEstudiantes\Aplicacion estudiantes\Aplicacion estudiantes\bin\Debug\net6.0-windows\Aplicacion estudiantes.deps.json
+C:\Users\Umes08\Source\Repos\AplicacionEstudiantes\Aplicacion estudiantes\Aplicacion estudiantes\bin\Debug\net6.0-windows\Aplicacion estudiantes.runtimeconfig.json
+C:\Users\Umes08\Source\Repos\AplicacionEstudiantes\Aplicacion estudiantes\Aplicacion estudiantes\bin\Debug\net6.0-windows\Aplicacion estudiantes.dll
+C:\Users\Umes08\Source\Repos\AplicacionEstudiantes\Aplicacion estudiantes\Aplicacion estudiantes\bin\Debug\net6.0-windows\Aplicacion estudiantes.pdb
+C:\Users\Umes08\Source\Repos\AplicacionEstudiantes\Aplicacion estudiantes\Aplicacion estudiantes\obj\Debug\net6.0-windows\Aplicacion estudiantes.csproj.AssemblyReference.cache
+C:\Users\Umes08\Source\Repos\AplicacionEstudiantes\Aplicacion estudiantes\Aplicacion estudiantes\obj\Debug\net6.0-windows\Aplicacion_estudiantes.Form1.resources
+C:\Users\Umes08\Source\Repos\AplicacionEstudiantes\Aplicacion estudiantes\Aplicacion estudiantes\obj\Debug\net6.0-windows\Aplicacion estudiantes.csproj.GenerateResource.cache
+C:\Users\Umes08\Source\Repos\AplicacionEstudiantes\Aplicacion estudiantes\Aplicacion estudiantes\obj\Debug\net6.0-windows\Aplicacion estudiantes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Umes08\Source\Repos\AplicacionEstudiantes\Aplicacion estudiantes\Aplicacion estudiantes\obj\Debug\net6.0-windows\Aplicacion estudiantes.AssemblyInfoInputs.cache
+C:\Users\Umes08\Source\Repos\AplicacionEstudiantes\Aplicacion estudiantes\Aplicacion estudiantes\obj\Debug\net6.0-windows\Aplicacion estudiantes.AssemblyInfo.cs
+C:\Users\Umes08\Source\Repos\AplicacionEstudiantes\Aplicacion estudiantes\Aplicacion estudiantes\obj\Debug\net6.0-windows\Aplicacion estudiantes.csproj.CoreCompileInputs.cache
+C:\Users\Umes08\Source\Repos\AplicacionEstudiantes\Aplicacion estudiantes\Aplicacion estudiantes\obj\Debug\net6.0-windows\Aplicacion estudiantes.dll
+C:\Users\Umes08\Source\Repos\AplicacionEstudiantes\Aplicacion estudiantes\Aplicacion estudiantes\obj\Debug\net6.0-windows\refint\Aplicacion estudiantes.dll
+C:\Users\Umes08\Source\Repos\AplicacionEstudiantes\Aplicacion estudiantes\Aplicacion estudiantes\obj\Debug\net6.0-windows\Aplicacion estudiantes.pdb
+C:\Users\Umes08\Source\Repos\AplicacionEstudiantes\Aplicacion estudiantes\Aplicacion estudiantes\obj\Debug\net6.0-windows\Aplicacion estudiantes.genruntimeconfig.cache
+C:\Users\Umes08\Source\Repos\AplicacionEstudiantes\Aplicacion estudiantes\Aplicacion estudiantes\obj\Debug\net6.0-windows\ref\Aplicacion estudiantes.dll

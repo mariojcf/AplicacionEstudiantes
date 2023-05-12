@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace Aplicacion_estudiantes
 {
-    internal class Estudiantes
+    public class Estudiantes
     {
         //metodos 
         private String name;
         private String id;
+        private Curso[] cursos = new Curso[0];
         //constructor
         public Estudiantes(String name, String id)
         {
@@ -37,6 +38,15 @@ namespace Aplicacion_estudiantes
         public void setName(String name)
         {
             this.name = name;
+        }
+
+        public Curso[] getCursos()
+        {
+            return this.cursos;
+        }
+        public void SetCursos(Curso[] cursos)
+        {
+            this.cursos = cursos;
         }
     }
 }

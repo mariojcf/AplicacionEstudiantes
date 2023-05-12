@@ -15,38 +15,45 @@ namespace Aplicacion_estudiantes
         }
 
         private void buttonguardar_Click(object sender, EventArgs e)
-
         {
-            if (contador < 5)
-            {
-                bool verificado = true;
-                if(txtbcarnet.Text == "")
+            if (!existStudent(txtbcarnet.Text)) {
+                if (contador < 5)
                 {
-                    lblerrorcarnet.Text = "El carnet no puede ser vacio";
-                    lblerrorcarnet.Visible = true;
-                    verificado= false;
-                }
-                if (txtbnombre.Text == "")
-                {
-                    lblerrorname.Text = "El nombre no puede ser vacio";
-                    lblerrorname.Visible = true;
-                    verificado= false;
-                }
-                if(verificado)
-                {
-                    estudiantes[contador] = new Estudiantes(txtbcarnet.Text, txtbnombre.Text);
-                    contador++;
+                    bool verificado = true;
+                    if (txtbcarnet.Text == "")
+                    {
+                        lblerrorcarnet.Text = "El carnet no puede ser vacio";
+                        lblerrorcarnet.Visible = true;
+                        verificado = false;
+                    }
+                    if (txtbnombre.Text == "")
+                    {
+                        lblerrorname.Text = "El nombre no puede ser vacio";
+                        lblerrorname.Visible = true;
+                        verificado = false;
+                    }
+                    if (verificado)
+                    {
+                        estudiantes[contador] = new Estudiantes(txtbcarnet.Text, txtbnombre.Text);
+                        contador++;
 
-                    txtbcarnet.Text = "";
-                    txtbnombre.Text = "";
-                    lblerrorcarnet.Visible = false;
-                    lblerrorname.Visible= false;
+                        txtbcarnet.Text = "";
+                        txtbnombre.Text = "";
+                        lblerrorcarnet.Visible = false;
+                        lblerrorname.Visible = false;
+                    }
+                }
+                else
+                {
+                    lblerror.Text = "No es posible almacenar más estudiantes";
+                    lblerror.Visible = true;
                 }
             } else
             {
-                lblerror.Text = "No es posible almacenar más estudiantes"; 
+                lblerror.Text = "Estudiante ya existente";
                 lblerror.Visible = true;
             }
+            
         }
 
 
@@ -124,6 +131,33 @@ namespace Aplicacion_estudiantes
                     lblerror.Visible = true;
                 }
             }
+        }
+
+        public bool existStudent(String studentID)
+        {
+            bool result = false;
+
+            foreach (Estudiantes item in estudiantes) {
+                if (item !=null && item.getId() == studentID )
+                {
+                    result= true;
+                    break;
+                }           
+            }
+            return result;
+        }
+
+        public Estudiantes finStudents (String studentID)
+        {
+            Estudiantes estudiante = null;
+
+            foreach (Estudiantes item in estudiantes) {
+                if (item !=null && item.getId() == studentID) { 
+                    estudiante = item;
+                    break;          
+                }   
+            }
+            return estudiante;
         }
     }
 }
